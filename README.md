@@ -2,7 +2,7 @@
 
 ## What is EasyOCR?
 
-   EasyOCR, as the name suggests, is a Python package that allows computer vision developers to effortlessly perform Optical Character Recognition.It is a Python library for Optical Character Recognition (OCR) that allows you to easily extract text from images and scanned documents. In my project I am using easyOCR to extract text from **business cards.**
+EasyOCR, as the name suggests, is a Python package that allows computer vision developers to effortlessly perform Optical Character Recognition.It is a Python library for Optical Character Recognition (OCR) that allows you to easily extract text from images and scanned documents. In my project I am using easyOCR to extract text from **business cards.**
    
    When it comes to OCR, EasyOCR is by far the most straightforward way to apply Optical Character Recognition:
 
@@ -22,15 +22,4 @@ This project aims to develop a Streamlit application that streamlines the extrac
    - Streamlit - (To Create Graphical user Interface)
    - EasyOCR - (To extract text from images)
 
-## Features
-### User-Friendly Interface: 
-The application boasts a simple and intuitive UI that guides users seamlessly through the process of uploading a business card image and extracting information.
 
-### Data Extraction: 
-Utilizing the easyOCR library, the application extracts key details including company name, cardholder name, designation, mobile number, email address, website URL, area, city, state, and pin code.
-
-### Database Integration: 
-Users can save the extracted information into a database along with the uploaded business card image. The database, powered by SQLite or MySQL, is designed to store multiple entries, each associated with its respective business card image and extracted information.
-
-### CRUD Operations: 
-The application supports essential CRUD (Create, Read, Update, Delete) operations. Users can easily add, view, update, and delete entries through the Streamlit UI.
